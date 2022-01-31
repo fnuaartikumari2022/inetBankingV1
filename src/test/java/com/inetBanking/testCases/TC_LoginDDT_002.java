@@ -62,7 +62,7 @@ public class TC_LoginDDT_002 extends BaseClass {
 		String path=System.getProperty("user.dir")+"/src/test/java/com/inetBanking/testData/test.xlsx";
 		
 		System.out.println("Path: "+path);
-		System.out.println("Path: "+path);
+	
 		int rownum = XLUtils.getRowCount(path,"Sheet1");
 		int colcount=XLUtils.getCellCount(path, "Sheet1", 1);
 		String logindata[][] = new String[rownum][colcount];
