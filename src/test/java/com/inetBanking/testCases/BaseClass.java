@@ -48,10 +48,10 @@ public class BaseClass {
 		// getLogger(BaseClass.class.getName());
 	}
 
-	@AfterClass
-	public void tearDown() {
-		driver.quit();
-	}
+	//@AfterClass
+	//public void tearDown() {
+	//	driver.quit();
+	//}
 
 	public String getScreenShotPath(String testCaseName, WebDriver driver) throws IOException {
 		TakesScreenshot ts = (TakesScreenshot) driver;
